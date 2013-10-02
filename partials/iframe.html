@@ -4,7 +4,7 @@
 	<link rel="stylesheet" href="../../../../wp-admin/load-styles.php?c=0&dir=ltr&load=admin-bar,buttons,media-views,wp-admin,wp-auth-check&ver=3.6.1" />
 	<link rel="stylesheet" href="../../../../wp-includes/css/editor.min.css?ver=3.6.1" />
 	<style>body {min-width:0}</style>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../../wp-admin/load-scripts.php?c=0&load%5B%5D=jquery-core,jquery-migrate,utils,json2&ver=3.6.1"></script>
 	<script type="text/javascript" src="../../../../wp-includes/js/tinymce/tiny_mce_popup.js"></script>
 	<script type="text/javascript">
 		var FlynIFrame = {
@@ -14,7 +14,7 @@
 				tinyMCEPopup.resizeToInnerSize();
 			},
 			insert: function createIFrameShortcode(e) {
-				var attribs = $('#wp-link :input').serializeArray()
+				var attribs = jQuery('#wp-link :input').serializeArray()
 
 				var output = '[iframe ';
 				for ( i=0; i<attribs.length; i++ )
