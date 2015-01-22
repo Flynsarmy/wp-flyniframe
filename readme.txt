@@ -35,6 +35,12 @@ The tag to insert the code is:
 
 == Changelog ==
 
+= 1.0.3 =
+
+January 22, 2015
+
+* TinyMCE button fix
+
 = 1.0.2 =
 
 April 30, 2014
