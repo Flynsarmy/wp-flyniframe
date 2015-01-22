@@ -1,7 +1,7 @@
 === IFrame Shortcode ===
 Tags: iframe, embed, shortcode, tinymce, plugin
 Requires at least: 3.5.2
-Tested up to: 3.6.1
+Tested up to: 3.9
 Stable tag: trunk
 
 Allows the insertion of code to display an external webpage within an iframe.
@@ -34,6 +34,18 @@ The tag to insert the code is:
 2. TinyMCE popup for adding an IFrame
 
 == Changelog ==
+
+= 1.0.2 =
+
+April 30, 2014
+
+* Style tweaks for WP 3.9
+
+= 1.0.1 =
+
+February 17, 2014
+
+* Bug fix release
 
 = 1.0 =
 
